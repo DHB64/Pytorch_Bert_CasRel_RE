@@ -6,8 +6,8 @@ TRAIN_JSON_PATH = './data/input/duie/duie_train.json'
 TEST_JSON_PATH = './data/input/duie/duie_test.json'
 DEV_JSON_PATH = './data/input/duie/duie_dev.json'
 
-BERT_MODEL_NAME = '../huggingface/bert-base-chinese/'
-
+# BERT_MODEL_NAME = '../huggingface/bert-base-chinese/'
+BERT_MODEL_NAME = 'D:/NLP/Model/bert-base-chinese'
 import torch
 
 DEVICE = 'cuda' if torch.cuda.is_available() else 'cpu'
